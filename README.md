@@ -90,7 +90,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-`http://localhost:8080/`
+`http://localhost:5000/`
 
 ##### Example return
 
@@ -107,7 +107,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-`http://localhost:8080/actors`
+`http://localhost:5000/actors`
 
 ##### Example return
 
@@ -148,7 +148,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpoint: `http://localhost:8080/actors`
+- endpoint: `http://localhost:5000/actors`
 - body:
 ```
 {
@@ -173,7 +173,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpoint: `http://localhost:8080/actors/1`
+- endpoint: `http://localhost:5000/actors/1`
 
 ##### Example return
 
@@ -196,7 +196,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpoint: `http://localhost:8080/actors/1`
+- endpoint: `http://localhost:5000/actors/1`
 - body:
 ```
 {
@@ -229,7 +229,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpont: `http://localhost:8080/movies`
+- endpont: `http://localhost:5000/movies`
 
 ##### Example return
 
@@ -270,7 +270,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpoint: `http://localhost:8080/movies`
+- endpoint: `http://localhost:5000/movies`
 - body:
 ```
 {
@@ -295,7 +295,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpoint: `http://localhost:8080/movies/1`
+- endpoint: `http://localhost:5000/movies/1`
 
 ##### Example return
 
@@ -318,7 +318,7 @@ This is the root endpoint of the app which can be used as a status check and req
 
 ##### Example request
 
-- endpoint: `http://localhost:8080/movies/1`
+- endpoint: `http://localhost:5000/movies/1`
 - body:
 ```
 {
