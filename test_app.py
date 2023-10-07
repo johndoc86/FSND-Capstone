@@ -11,8 +11,10 @@ class TestCase(unittest.TestCase):
     self.app = create_app()
     self.client = self.app.test_client
 
-    self.database_name = "hollywood_test"
-    self.database_path = "{}/{}".format(os.environ['DATABASE_URL'],self.database_name)
+    # Add '_test' to database path to keep test database unique from running database
+    self.database_path = os.environ['DATABASE_URL'] + '_test'
+    if self.database_path.startswith("postgres://"):
+      self.database_path = self.database_path.replace("postgres://", "postgresql://", 1)
 
     self.producer_token = os.environ['PRODUCER_TOKEN']
     self.assistant_token = os.environ['ASSISTANT_TOKEN']
