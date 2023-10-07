@@ -2,8 +2,8 @@
 
 ## Final project for Udacity FSND
 
-Render link: TODO: Replace with running endpoint
-Local link: http://127.0.0.1:8080
+Render link: https://doc-nano-capstone.onrender.com
+Local link: http://127.0.0.1:5000
 
 ## Getting started
 
