@@ -257,5 +257,5 @@ APP = create_app()
 
 if __name__ == '__main__':
   # Need to change to 127 address bc host has multiple interfaces
-  APP.run(host='127.0.0.1', port=8080, debug=True)
+  APP.run(host='0.0.0.0', port=8080, debug=True)
   # APP.config['JSON_SORT_KEYS'] = False
